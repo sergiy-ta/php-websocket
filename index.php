@@ -7,6 +7,10 @@ $worker->count = 4;
 
 $worker->onConnect = function($connection) {
     $connection->send("message hello");
+
+    \Workerman\Lib\Timer::add(1, function () use ($connection) {
+        $connection->send('Hello from server');
+    })
 };
 
 \Workerman\Worker::runAll();
