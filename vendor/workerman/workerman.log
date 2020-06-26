@@ -1,2 +1,8 @@
 2020-06-26 16:27:07 pid:65100 Workerman[index.php] start in DEBUG mode
 2020-06-26 16:27:38 pid:65109 Workerman[index.php] status 
+2020-06-26 16:43:06 pid:65100 Workerman[index.php] stopping ...
+2020-06-26 16:43:06 pid:65100 Workerman[index.php] has been stopped
+2020-06-26 16:43:23 pid:65291 Workerman[index.php] start in DEBUG mode
+2020-06-26 16:53:19 pid:65291 Workerman[index.php] stopping ...
+2020-06-26 16:53:19 pid:65291 Workerman[index.php] has been stopped
+2020-06-26 16:53:20 pid:65482 Workerman[index.php] start in DEBUG mode

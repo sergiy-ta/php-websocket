@@ -12,6 +12,10 @@
         ws.addEventListener('message', (event) => {
             console.log('Message from server: ' + event.data);
         })
+
+        ws.onopen = () => {
+            ws.send('Hello from js');
+        }
     </script>
 </body>
 </html>
